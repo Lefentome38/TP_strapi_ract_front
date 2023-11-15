@@ -1,0 +1,42 @@
+GET http://localhost:1337/api/chanteurs
+###
+POST http://localhost:1337/api/chanteurs
+content-type: application/json
+
+{
+    "data": {
+        "nom": "Delpech",
+        "prenom": "Michel",
+        "date_de_naissance": "1946-01-26"
+    }
+}
+
+###
+GET http://localhost:1337/api/musics?populate=*
+###
+GET http://localhost:1337/api/musics?filters[Favoris][$eq]=true
+###
+GET http://localhost:1337/api/musics?sort=Titre:asc
+###
+POST http://localhost:1337/api/musics
+Content-Type: application/json
+
+{ 
+    "data": {
+        "Titre": "TU M'AS COMPRIS",
+        "lien_youtube": "https://www.youtube.com/watch?v=CEn0vVfA_hE",
+        "chanteur": 3,
+        "Favoris": true,
+        "dete_de_sortie": "2022-01-28",
+        "couleur":"#134522"
+    }
+}
+###
+
+POST  http://localhost:1337/api/auth/local
+content-type: application/json
+
+{
+    "identifier": "rambaudaymeric@gmail.com",
+    "password": "loganecraft"
+}
