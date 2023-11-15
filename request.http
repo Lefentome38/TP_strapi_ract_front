@@ -16,7 +16,7 @@ GET http://localhost:1337/api/musics?populate=*
 ###
 GET http://localhost:1337/api/musics?filters[Favoris][$eq]=true
 ###
-GET http://localhost:1337/api/musics?sort=Titre:asc
+GET http://localhost:1337/api/musics?sort=Titre:desc
 ###
 POST http://localhost:1337/api/musics
 Content-Type: application/json
