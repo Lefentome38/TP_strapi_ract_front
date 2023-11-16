@@ -14,19 +14,19 @@ content-type: application/json
 ###
 GET http://localhost:1337/api/musics?populate=*
 ###
-GET http://localhost:1337/api/musics?filters[Favoris][$eq]=true
+GET http://localhost:1337/api/musics?filters[favories][$eq]=true
 ###
-GET http://localhost:1337/api/musics?sort=Titre:desc
+GET http://localhost:1337/api/musics?sort=titre:desc
 ###
 POST http://localhost:1337/api/musics
 Content-Type: application/json
 
 { 
     "data": {
-        "Titre": "TU M'AS COMPRIS",
+        "titre": "TU M'AS COMPRIS",
         "lien_youtube": "https://www.youtube.com/watch?v=CEn0vVfA_hE",
         "chanteur": 3,
-        "Favoris": true,
+        "favories": true,
         "dete_de_sortie": "2022-01-28",
         "couleur":"#134522"
     }

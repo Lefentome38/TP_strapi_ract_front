@@ -1,7 +1,9 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Connexion from "./routes/Connexion"
 import Home from "./routes/Home";
-import Musique from "./composants/Musique";
+import Ajouter_music from "./routes/Ajouter_music";
+import Modifier_music from "./routes/Modifier_music";
+// import Musique from "./composants/Musique";
 
 function App() {
 const router = createBrowserRouter([
@@ -13,10 +15,14 @@ const router = createBrowserRouter([
     path:"/home",
     element: <Home />,
   },
-  // {
-  //   path:"/musique",
-  //   element: <Musique />,
-  // },
+  {
+    path:"/ajouter_music",
+    element: <Ajouter_music />,
+  },
+  {
+    path:"/modifier_music",
+    element: <Modifier_music />,
+  },
 
 ]);
 

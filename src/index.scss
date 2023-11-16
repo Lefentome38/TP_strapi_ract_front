@@ -1,5 +1,15 @@
+*{
+  // border: solid;
+}
+
 body{
   background-color: lightblue;
+}
+
+.button_ajout_music{
+  text-align: end;
+  margin: 0% 10% 0% 0%;
+  font-size: 4rem;
 }
 
 .data_list{
@@ -8,18 +18,34 @@ body{
   .div_music{
     border: solid black;
     border-radius: 20%;
+    height: 100px;
+    width: 100px;
     margin: 2%;
     padding: 2%;
-    .titre_music{
+    .titre_music, .chanteur_music{
       color: white;
+      // overflow: clip;
+      height: 30%;
+      width: 100%;
+      margin:2%;
+      font-size: 1rem;
     }
-      .chanteur_music{
-        color: white;
-      }
-      .favorie{
-        margin: 0%;
-        font-size: 60px;
-        text-align: end;
-      }
+    .favorie{
+      text-align: end;
+      margin-top: 8%;
+      font-size: 2rem;
+    }
   }
 }
+
+.body_formulaire_ajout{
+  justify-items: center;
+  .formulaire_ajout_music{
+    text-align: center;
+    width: 10%;
+    input{
+      height: auto;
+    }
+  }
+}
+
