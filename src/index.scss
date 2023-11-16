@@ -1,3 +1,25 @@
 body{
   background-color: lightblue;
 }
+
+.data_list{
+  position: relative;
+  display: flex;
+  .div_music{
+    border: solid black;
+    border-radius: 20%;
+    margin: 2%;
+    padding: 2%;
+    .titre_music{
+      color: white;
+    }
+      .chanteur_music{
+        color: white;
+      }
+      .favorie{
+        margin: 0%;
+        font-size: 60px;
+        text-align: end;
+      }
+  }
+}

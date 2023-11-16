@@ -83,10 +83,10 @@ CrÃ©er un nouvel utilisateur dans strapi. -OK
 CrÃ©er une interface de connexion dans le projet client. -OK
 Utiliser la route d'authentification de strapi pour se connecter. -OK
 
-Une fois connectÃ©, afficher la liste des musiques dans le projet client.
-Afficher les musiques favorites en premier. -OK (requette)
-Afficher les musiques par ordre alphabÃ©tique dans une deuxiÃ¨me partie. -OK (requette)
-Vous pouvez vous aider de la maquette (laide) fournie dans le brief.
+Une fois connectÃ©, afficher la liste des musiques dans le projet client. -OK
+Afficher les musiques favorites en premier. -OK 
+Afficher les musiques par ordre alphabÃ©tique dans une deuxiÃ¨me partie. -OK 
+Vous pouvez vous aider de la maquette (laide) fournie dans le brief. 
 
 CrÃ©er une page d'ajout de musique, accessible en cliquant sur le lien "+" en haut Ã  droite de la page d'accueil.
 
